@@ -47,7 +47,7 @@ export default function PasswordField({
             disabled={disabled}
             iconStyle={[themedStyle.icon, iconStyle]}
             size={16}
-            source={obscureText ? icons.visibilityOff : icons.visibilityOn}
+            source={obscureText ? icons.visibilityOn : icons.visibilityOff}
             onPress={handleOnPress}
           />
         ) : null
